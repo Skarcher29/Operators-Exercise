@@ -11,8 +11,10 @@
             var mod = a%b;
 
             if (a==17 && b==4)
-            Console.WriteLine($"{a}/{b} is {div} remainder {mod}"); 
-
+            {
+                Console.WriteLine($"{a}/{b} is {div} remainder {mod}"); 
+            }        
+            
             var r = 20;
             var pi = Math.PI;
 
